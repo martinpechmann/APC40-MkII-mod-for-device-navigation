@@ -12,15 +12,15 @@ from _Framework.SessionRecordingComponent import SessionRecordingComponent
 from _Framework.SessionZoomingComponent import SessionZoomingComponent
 from _Framework.ClipCreator import ClipCreator
 from _Framework.Util import recursive_map
-from Push import Colors
+from pushbase import colors
 from _APC.APC import APC
-from _APC.DeviceComponent import DeviceComponent
 from _APC.DeviceBankButtonElement import DeviceBankButtonElement
 from _APC.DetailViewCntrlComponent import DetailViewCntrlComponent
 from _APC.SessionComponent import SessionComponent
 from _APC.ControlElementUtils import make_button, make_encoder, make_slider, make_ring_encoder, make_pedal_button
 from _APC.SkinDefault import make_rgb_skin, make_default_skin, make_stop_button_skin, make_crossfade_button_skin
 from BankToggleComponent import BankToggleComponent
+from DeviceComponent import DeviceComponent
 from MixerComponent import MixerComponent
 from QuantizationComponent import QuantizationComponent
 from TransportComponent import TransportComponent
